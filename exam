@@ -1,0 +1,53 @@
+void main() {
+
+  //Este es el primer programa
+  /* espero sean muchos mas!!
+   * y muy productivos
+   */
+    print('hello World');
+  
+  //Strings
+  var nombre='Luis';
+  var apellido='Valbus';
+  
+  String nombres='Luis';
+  final apellidos='Valbuena';
+  //nombre='Lauri';
+    
+  print('$nombre $apellido');
+  
+  //Números
+  int empleados=19;
+  double salario=400.123;
+  
+  print('$empleados');
+  print('$salario');
+  
+  //boolean
+  
+  bool isActive = true;
+  
+  if (isActive){
+    print ('Esta activo');
+  } else {
+    print ('Esta inactivo'); 
+  }
+ if (!isActive){
+    print ('activo');
+  } else {
+    print ('inactivo'); 
+ }   
+  
+ bool? isActived = null;
+  
+  if (isActived==null){
+    print ('Es Null');
+  } else {
+    print ('No es Null'); 
+  }  
+ if (isActived!=null){
+    print ('Es Null');
+  } else {
+    print ('No es Null'); 
+  }     
+}
